@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "elevenlabs": {
+      "type": "stdio",
+      "command": "bash",
+      "args": [
+        "-c",
+        "set -a; source .env; set +a; exec uvx elevenlabs-mcp"
+      ],
+      "env": {}
+    }
+  }
+}
